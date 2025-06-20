@@ -1,0 +1,93 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    padding: 16px;
+}
+
+/* Título principal */
+h1 {
+    color: green;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+header li {
+    display: inline;
+}
+
+/* Links do menu */
+nav a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Títulos das seções */
+h2 {
+    margin: 32px 0 16px;
+}
+
+/* Cores por seção */
+#sports h2 {
+    color: green;
+}
+
+#economy h2 {
+    color: goldenrod;
+}
+
+#decoracao h2 {
+    color: teal;
+}
+
+#inteligencia-artificial h2 {
+    color: orange;
+}
+
+/* Estilo dos artigos */
+article {
+    margin-bottom: 32px;
+}
+
+h3 {
+    color: darkred;
+    margin: 8px 0;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo da data */
+time {
+    font-size: 0.875em;
+    color: #777;
+}
